@@ -8,4 +8,5 @@ def index(request):
 
 
 def login(request):
+    pass
     return render(request, 'blog/login.html')

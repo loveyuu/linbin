@@ -10,3 +10,7 @@ def index(request):
 def login(request):
     pass
     return render(request, 'blog/login.html')
+
+
+def post_list(request):
+    return render(request, 'blog/post_main.html')
